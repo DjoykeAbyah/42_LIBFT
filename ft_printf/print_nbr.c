@@ -1,33 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_putstr_fd.c                                     :+:    :+:            */
+/*   print_nbr.c                                        :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: dreijans <dreijans@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2022/10/25 19:22:38 by dreijans      #+#    #+#                 */
-/*   Updated: 2023/04/14 20:18:11 by dreijans      ########   odam.nl         */
+/*   Created: 2022/11/18 16:39:39 by dreijans      #+#    #+#                 */
+/*   Updated: 2022/11/30 19:05:58 by dreijans      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
-void	ft_putstr_fd(char *s, int fd)
+int	print_nbr(int n)
 {
-	write (fd, s, ft_strlen(s));
+	int		count;
+	char	*nbr;
+
+	count = -1;
+	nbr = ft_itoa(n);
+	if (nbr != NULL)
+	{
+		count = write (1, nbr, ft_strlen(nbr));
+		free (nbr);
+	}
+	return (count);
 }
-
-/*
-Parameters:
-s: The string to output.
-fd: The file descriptor on which to write.
-
-Return value:
-None
-
-External functs: 
-write
-
-Description:
-Outputs the string ’s’ to the given file descriptor.
-*/

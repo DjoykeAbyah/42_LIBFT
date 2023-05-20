@@ -1,33 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_putstr_fd.c                                     :+:    :+:            */
+/*   print_char.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: dreijans <dreijans@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2022/10/25 19:22:38 by dreijans      #+#    #+#                 */
-/*   Updated: 2023/04/14 20:18:11 by dreijans      ########   odam.nl         */
+/*   Created: 2022/11/18 18:08:14 by dreijans      #+#    #+#                 */
+/*   Updated: 2022/11/25 15:24:20 by dreijans      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
-void	ft_putstr_fd(char *s, int fd)
+int	print_char(char c)
 {
-	write (fd, s, ft_strlen(s));
+	return (write(1, &c, 1));
 }
-
-/*
-Parameters:
-s: The string to output.
-fd: The file descriptor on which to write.
-
-Return value:
-None
-
-External functs: 
-write
-
-Description:
-Outputs the string ’s’ to the given file descriptor.
-*/
