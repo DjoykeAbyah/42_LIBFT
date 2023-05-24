@@ -7,8 +7,8 @@ Libft is a custom library consisting of various functions that will be a valuabl
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Part 1 - Libc Functions](#part 1 - Libc Functions)
-- [Part 2 - Additional Functions](#Part 2 - Additional Functions)
+- [Libc Functions](#Libc functions)
+- [Additional Functions](#additional functions)
 - [Bonus](#bonus)
 
 ## Installation
