@@ -1,6 +1,6 @@
-# Libft
+# 📚 Libft 📚
 
-libft.a - My Very First Own Library
+libft.a - My Very First Own Library!!
 
 ## Description
 Libft is a custom library consisting of various functions that will be a valuable asset for your programming journey.
@@ -19,7 +19,7 @@ Libft is a custom library consisting of various functions that will be a valuabl
 
 3. Create a main to test out the individual functions.
 
-## Usage
+## Usage 
 
 The library provides a collection of functions categorized into different parts. You can use them in any C project.
 
