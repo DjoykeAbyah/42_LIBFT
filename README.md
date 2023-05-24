@@ -9,7 +9,7 @@ Libft is a custom library consisting of various functions that will be a valuabl
 - [Usage](#usage)
 - [Part 1 - Libc Functions](#part 1 - Libc Functions)
 - [Part 2 - Additional Functions](#Part 2 - Additional Functions)
-- [Bonus Part](#bonus Part)
+- [Bonus](#bonus)
 
 ## Installation
 1. Clone the repository or download the source code files.
@@ -69,7 +69,7 @@ These functions include:
 - ft_putendl_fd: Outputs a string to a file descriptor, followed by a newline.
 - ft_putnbr_fd: Outputs an integer to a file descriptor.
 
-### Bonus Part
+### Bonus
 
 his section focuses on manipulating linked lists. 
 It provides functions to create, modify, and traverse linked lists. 
