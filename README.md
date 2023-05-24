@@ -69,7 +69,7 @@ These functions include:
 - ft_putendl_fd: Outputs a string to a file descriptor, followed by a newline.
 - ft_putnbr_fd: Outputs an integer to a file descriptor.
 
-### Bonus
+### Bonus :star:
 
 his section focuses on manipulating linked lists. 
 It provides functions to create, modify, and traverse linked lists. 
