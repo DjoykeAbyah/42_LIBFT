@@ -7,7 +7,7 @@ Libft is a custom library consisting of various functions that will be a valuabl
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Libc Functions](#Libc functions)
+- [Libc Functions](#Libcfunctions)
 - [Additional Functions](#additional functions)
 - [Bonus](#bonus)
 
@@ -23,7 +23,7 @@ Libft is a custom library consisting of various functions that will be a valuabl
 
 The library provides a collection of functions categorized into different parts. You can use them in any C project.
 
-### Part 1 - Libc Functions
+### Libc Functions
 
 In this section, you will find functions that replicate standard libc functions. 
 These functions have the same behavior as their original counterparts but with names prefixed by "ft_". They include:
@@ -52,7 +52,7 @@ These functions have the same behavior as their original counterparts but with n
 
 Additionally, there are two functions, calloc and strdup, that require the use of malloc().
 
-### Part 2 - Additional Functions
+### Additional Functions
 
 This section contains additional functions that are either not present in the libc or have a different form. 
 These functions include:
