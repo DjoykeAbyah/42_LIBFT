@@ -19,7 +19,7 @@ Libft is a custom library consisting of various functions that will be a valuabl
 
 3. Create a main to test out the individual functions.
 
-## Usage 
+## Usage :memo:
 
 The library provides a collection of functions categorized into different parts. You can use them in any C project.
 
