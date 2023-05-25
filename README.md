@@ -3,7 +3,7 @@
 libft.a - My Very First Own Library!!
 
 ## Description
-Libft is a custom library consisting of various functions that will be a valuable asset for your programming journey.
+Libft is a custom library consisting of various functions. You can use them in any C project so it's a valuable asset to my programming journey!
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,7 +21,7 @@ Libft is a custom library consisting of various functions that will be a valuabl
 
 ## Usage :memo:
 
-The library provides a collection of functions categorized into different parts. You can use them in any C project.
+The library provides a collection of functions categorized into different parts.
 
 ### Libc
 
@@ -71,7 +71,7 @@ These functions include:
 
 ### :star: Bonus :star:
 
-his section focuses on manipulating linked lists. 
+This section focuses on manipulating linked lists. 
 It provides functions to create, modify, and traverse linked lists. 
 The bonus functions include:
 
