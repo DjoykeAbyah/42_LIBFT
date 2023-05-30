@@ -6,11 +6,11 @@
 /*   By: dreijans <dreijans@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/01/09 11:35:31 by dreijans      #+#    #+#                 */
-/*   Updated: 2023/02/09 16:19:59 by dreijans      ########   odam.nl         */
+/*   Updated: 2023/05/30 17:50:37 by dreijans      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 ssize_t	ft_find_newline(char *str)
 {

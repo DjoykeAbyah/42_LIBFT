@@ -6,7 +6,7 @@
 /*   By: dreijans <dreijans@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/05 19:14:52 by dreijans      #+#    #+#                 */
-/*   Updated: 2023/04/07 19:18:05 by djoyke        ########   odam.nl         */
+/*   Updated: 2023/05/30 17:48:58 by dreijans      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,12 @@
 # include <unistd.h>
 # include <stddef.h>
 # include <stdarg.h>
+# include <fcntl.h>
+# include <limits.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 2
+# endif
 
 /*pointer naar content. fixed bytes voor struct*/
 
@@ -82,5 +88,13 @@ int		print_nbr(int n);
 int		print_ptr(unsigned long int n);
 int		print_unsigned(unsigned int n);
 int		print_str(char *s);
+
+/*get_next_line*/
+char	*get_next_line(int fd);
+char	*ft_copy_join(char *s1, char *s2);
+char	*ft_save(char *str);
+ssize_t	ft_find_newline(char *str);
+char	*ft_read_line(int fd, char *buffer, char *temp_buffer);
+
 
 #endif
