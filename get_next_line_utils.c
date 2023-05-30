@@ -6,7 +6,7 @@
 /*   By: dreijans <dreijans@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/12/22 13:18:14 by dreijans      #+#    #+#                 */
-/*   Updated: 2023/05/30 17:50:30 by dreijans      ########   odam.nl         */
+/*   Updated: 2023/05/30 18:00:08 by dreijans      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t	ft_strlen(const char *s)
 	return (i);
 }
 
-char	*ft_strlcpy(char *dst, const char *src, size_t dstsize)
+char	*ft_strlcpy_gnl(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 
@@ -57,7 +57,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (strlen == 0 || len == 0)
 		new_str[0] = 0;
 	else
-		ft_strlcpy(new_str, &s[start], len + 1);
+		ft_strlcpy_gnl(new_str, &s[start], len + 1);
 	return (new_str);
 }
 

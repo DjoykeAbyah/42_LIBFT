@@ -6,7 +6,7 @@
 #    By: dreijans <dreijans@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/10/04 16:56:00 by dreijans      #+#    #+#                  #
-#    Updated: 2023/05/01 15:10:09 by dreijans      ########   odam.nl          #
+#    Updated: 2023/05/30 17:58:40 by dreijans      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -64,7 +64,11 @@ print_hexup.c \
 print_nbr.c \
 print_ptr.c \
 print_str.c \
-print_unsigned.c
+print_unsigned.c\
+get_next_line_bonus.c\
+get_next_line_utils_bonus.c\
+get_next_line.c\
+get_next_line_utils.c
 
 OBJ	= $(addprefix $(OBJDIR)/, $(notdir $(SRC:.c=.o)))
 
