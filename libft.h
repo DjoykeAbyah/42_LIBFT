@@ -6,7 +6,7 @@
 /*   By: dreijans <dreijans@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/05 19:14:52 by dreijans      #+#    #+#                 */
-/*   Updated: 2023/05/30 17:48:58 by dreijans      ########   odam.nl         */
+/*   Updated: 2023/06/09 14:16:08 by dreijans      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,6 +95,5 @@ char	*ft_copy_join(char *s1, char *s2);
 char	*ft_save(char *str);
 ssize_t	ft_find_newline(char *str);
 char	*ft_read_line(int fd, char *buffer, char *temp_buffer);
-
 
 #endif
